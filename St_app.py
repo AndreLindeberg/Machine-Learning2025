@@ -8,7 +8,7 @@ from skimage.filters import threshold_otsu
 
 # Ladda den sparade modellen
 model = joblib.load("best_xgb_model.pkl")
-scaler = joblib.load("scaler.pkl") # Om den behövs
+
 
 # Funktion för att binarisera.
 def binarize_image(image_array):
