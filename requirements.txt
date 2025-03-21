@@ -6,4 +6,5 @@ streamlit-drawable-canvas
 pandas
 numpy
 matplotlib
+scikit-image
 joblib
